@@ -1,0 +1,35 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+      
+      //variaveis
+      int idade = 21;
+      String nomeCompleto = "Leonardo Menozzo Neto";
+      char genero = 'H';
+      float pix = 200.0f;
+      boolean confirma = true;
+      long ra = 258436L;
+      double altura = 1.83;
+      short pe = 43;
+      int ddd = 46;
+      long telefone = 46991240652L;
+      
+      
+      
+      
+      
+        System.out.println("Boa Noite Professor Cleiton!");
+        System.out.println("eu me chamo " + nomeCompleto);
+        System.out.println("Tenho " + idade + " anos");
+        System.out.println("sou do genero " + genero);
+        System.out.println("Faz um pix pra mim de " + pix + "$ ai kkk ");
+        System.out.println("Meu RA e " + ra);
+        System.out.println("estou medindo " + altura + "mts");
+        System.out.println("eu uso tenis tamanho " + pe);
+        System.out.println("sou da regiao " + ddd);
+        System.out.println("qualquer coisa so me ligar " + telefone);
+        
+        
+    }
