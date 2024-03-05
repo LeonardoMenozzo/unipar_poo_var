@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+       double primNota;
+       double segNota;
+       double tercNota;
+       double quarNota;
+       double total;
+        
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Informe as quatro notas:  ");
+        primNota = scanner.nextDouble();
+        segNota = scanner.nextDouble();
+        tercNota = scanner.nextDouble();
+        quarNota = scanner.nextDouble();
+     
+    
+      
+        scanner.close();
+        
+        total = (primNota + segNota + tercNota + quarNota)/4;
+        
+        System.out.println("A media das notas e: " + total);
+    }
+}
